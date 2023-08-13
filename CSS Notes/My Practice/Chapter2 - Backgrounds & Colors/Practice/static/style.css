@@ -1,0 +1,40 @@
+body{
+    background-color:lightgray;
+}
+
+ul{
+    width:auto;
+    background-color: black;
+    color: white;
+    font-size: larger;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main{
+    background-color: darkred;
+    color: white;
+    width: auto;
+    font-size: larger;
+    font-family: 'Times New Roman';
+}
+
+.new{
+    background-image: url('Background.jpg');
+    width: auto;
+    height: auto;
+    font-size: 100px;
+    font-style: italic;
+    color: white;
+    text-align:center;
+    background-size:400px 400px;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+}
+.last{
+    background: red url('Background.jpg');
+    width: 200px;
+    height: 800px;
+    color: white;
+    font-size: xx-large;
+    background-attachment: scroll;
+}

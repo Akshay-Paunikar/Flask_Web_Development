@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:coral;
+}
+
+header{
+    padding: 25px;
+    background-color: black;
+    color: white;
+    position: sticky;
+    top: 0;
+}
+
+li{
+    display: inline;
+    font-size: 2vw;
+    padding: 0 13px;
+}
+
+.container{
+    min-height: auto;
+    background-color: blanchedalmond;
+    /* z-index: 2px;
+    position: relative; */
+}

@@ -1,0 +1,8 @@
+body{
+    background-color: powderblue;
+    color: black;
+}
+
+p{
+    list-style: circle inside;
+}

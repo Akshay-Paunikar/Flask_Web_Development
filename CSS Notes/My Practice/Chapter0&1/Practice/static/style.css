@@ -1,0 +1,26 @@
+body{
+    background-color:aqua;
+}
+
+.red{
+    background-color: red;
+    color: azure;
+    text-align: center;
+}
+
+.green{
+    background-color: green;
+    color: yellow;
+}
+
+#head{
+    background-color:blue;
+    color: white;
+}
+.one{
+    background-color: black;
+    color: gold;
+    font-size: large;
+    font:100;
+    font-family: Arial;
+}

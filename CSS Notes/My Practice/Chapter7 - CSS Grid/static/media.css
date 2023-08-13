@@ -1,0 +1,19 @@
+body{
+    background-color: burlywood;
+}
+
+.container{
+    background-color: blanchedalmond;
+    color: brown;
+    height: 50vh;
+    font-size: xx-large;
+}
+
+@media screen and (max-width: 800px){
+    body{
+        background-color: darkred;
+    }
+    .container{
+        background-color: yellowgreen;
+    } 
+}

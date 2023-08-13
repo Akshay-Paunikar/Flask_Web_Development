@@ -1,0 +1,32 @@
+body {
+    background-color:darkgreen;
+}
+
+#first{
+    background-color: black;
+    color: white;
+    font-size: large;
+}
+
+#second{
+    background-color: white;
+    color: black;
+    font-size: large;
+}
+
+#third{
+    background-color: blue;
+    color:black;
+    font-size: large;
+}
+
+.red{
+    background-color: red;
+    color: orange;
+    font-size: large;
+}
+
+.blue{
+    background-color: brown;
+    font-size: large;
+}

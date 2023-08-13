@@ -1,0 +1,28 @@
+body{
+    background-color: lightsteelblue;
+}
+
+.first{
+    background-color: black;
+    color: white;
+    display: inline-table;
+    width: 235px;
+    height: 70px;
+    border: 5px white solid;
+    margin: 5px;
+    padding: 10px;
+    text-align: left;
+    font-family: 'Edu QLD Beginner', cursive;
+}
+
+.second{
+    background-color: chocolate;
+    color: white;
+    display: inline-table;
+    width: auto;
+    height: auto;
+    border: 5px black solid;
+    margin: 5px;
+    padding: 10px;
+    font-family: 'Edu QLD Beginner', cursive;
+}

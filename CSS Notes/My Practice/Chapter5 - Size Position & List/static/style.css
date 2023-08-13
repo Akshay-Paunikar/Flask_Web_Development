@@ -1,0 +1,36 @@
+body{
+    background-color: coral;
+    color: antiquewhite;
+}
+
+.container{
+    font-size: 30px;
+    background-color: blueviolet;
+}
+
+.box{
+    font-size: 2rem;
+    background-color: chartreuse;
+}
+
+.box2{
+    background-color: lightcoral;
+    width: 100vw;
+    height: 20vh;
+    font-size: 1.2em;
+}
+
+.box3{
+    background-color: black;
+    color: antiquewhite;
+    width: 100vw;
+    height: 35vh;
+    min-width: 50vw;
+    min-height: 35vh;
+    max-width: 90vw;
+    max-height: 50vh;
+}
+
+.header{
+    background-color: aquamarine;
+}

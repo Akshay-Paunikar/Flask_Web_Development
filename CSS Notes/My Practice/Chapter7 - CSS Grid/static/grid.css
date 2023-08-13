@@ -1,0 +1,22 @@
+body{
+    background-color: blanchedalmond;
+}
+
+.container{
+    display: grid;
+    background-color: azure;
+    height: 50vh;
+    font-size: xx-large;
+    text-align: center;
+    /* grid-row-gap: 5px;
+    grid-column-gap: 5px; */
+    grid-gap: 5px 5px;
+    grid-template-columns: auto auto auto auto;
+    /* align-content: center; */
+}
+
+.item{
+    background-color: aquamarine;
+    border: 3px solid orangered;
+}
+

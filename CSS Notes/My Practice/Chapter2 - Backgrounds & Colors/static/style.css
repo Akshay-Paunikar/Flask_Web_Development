@@ -1,0 +1,41 @@
+* {
+    margin: 10px;
+    padding: 10px;
+}
+
+/* body {
+    background-image:url("Background.jpg");
+    background-repeat: no-repeat;
+    background-size:contain;
+} */
+
+.red{
+    background-color: black;
+    color:white;
+    font-size: large;
+    width: 600px;
+    height: 600px;
+    font-style: italic;
+    font-family: 'Times New Roman';
+    border: 2px;
+    border-color:white;
+    border-style: dashed;
+    background-image:url("Background.jpg");
+    background-repeat: no-repeat;
+    background-size: 250px;
+    background-position: top left;
+}
+
+.green{
+    background-color: greenyellow;
+    color: crimson;
+    font-size: large;
+    width: auto;
+    height: autos;
+    font-style: italic;
+    font-family: Arial;
+    border: 2px;
+    border-radius: 5cm;
+    border-color: white;
+    border-style: solid;
+}

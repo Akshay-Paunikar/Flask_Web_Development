@@ -1,0 +1,59 @@
+body{
+    background-color: cadetblue;
+    color: black;
+    height: 4000px;
+}
+
+header{
+    background-color: crimson;
+    color: white;
+    height: 70px;
+    text-align: center;
+    font-size: larger;
+}
+
+ul{
+    background-color: azure;
+}
+
+li{
+    /* display: inline; */
+    color: black;
+    list-style-type: square;
+    list-style-position: inside;
+    /* list-style-image: url('dot.png'); */
+}
+
+.container{
+    background-color: lightsalmon;
+    color: blue;
+    height: 70vh;
+    width: 100vw;
+    font-size: medium;
+    text-align: center;
+}
+
+p{
+    border: 5px solid white;
+}
+
+.box{
+    text-align: left;
+    font-size: xx-large;
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+    color:orange;
+    position: sticky;
+    top: 10px;
+    left: 10px;
+}
+
+.box2{
+    text-align: left;
+    font-size: small;
+    width: 200px;
+    height: 200px;
+    background-color: royalblue;
+    color:orange;
+}

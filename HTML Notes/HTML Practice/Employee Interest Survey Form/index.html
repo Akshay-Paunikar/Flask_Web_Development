@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Interest Survey</title>
+</head>
+
+<body>
+    <form action="https://www.google.com">
+        <div align="center">
+            <h1>Employee Interest Survey Form</h1>
+            Enter Your Full Name:
+            <!-- Input type text for small texts, specify size -->
+            <input type="text" name="Username" size="35" maxlength="35" value="">
+            <br>
+            Enter your Department:
+            <input type="text" name="Department" size="25" maxlength="25" value="">
+            <br>
+            Tell us something about yourself:
+            <br>
+            <textarea name="Comments" cols="30" rows="10"></textarea>
+            <br>
+            Do you Exercise at Home ?
+            <input type="radio" value="1">Yes
+            <input type="radio" value="2">No
+            <br>
+            How do you like to read about your favourite topics ?
+            <p>
+                <input type="checkbox" name="Books">Books
+                <input type="checkbox" name="Web">Online Resources
+                <input type="checkbox" name="Newspaper">Newspaper
+                <input type="checkbox" name="TV">TV Ads
+                <input type="checkbox" name="magazine">Magazine
+            </p>
+            What Genre of movies do you like ?
+            <select name="movie preference">
+                <option value="1" selected="True">Comedy
+                <option value="2">Romance
+                <option value="3">Horror
+                <option value="4">Thriller
+                <option value="5">Biopic
+                </option>
+            </select>
+            <br>
+            <!-- Submit the information entered by the User -->
+            <input type="submit" value="Submit Form">
+        </div>
+    </form>
+</body>
+
+</html>

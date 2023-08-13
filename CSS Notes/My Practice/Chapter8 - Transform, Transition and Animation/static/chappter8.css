@@ -1,0 +1,38 @@
+body{
+    background-color: burlywood;
+}
+
+.container{
+    background-color: red;
+    height: 50vh;
+}
+
+.class{
+    background-color: blanchedalmond;
+    color: black;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    height: 15vh;
+    margin: 25px 0;
+    padding: 15px 0;
+    border: 3px solid black;
+    /* transform: translate(0 , 50px) rotate(45deg); */
+    transform-origin: 0;
+    /* transform: scaleX(0.75) scaleY(2); */
+    /* transform: skew(10deg, 200deg);     */
+}
+
+.image{
+    height: 150px;
+    width: 200px;
+}
+img:hover{
+    width: 500px;
+}
+
+img{
+    width: 200px;
+    transition-property: width;
+    transition-duration: 3s;
+    transition-timing-function: ease-in;
+}
