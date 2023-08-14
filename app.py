@@ -37,5 +37,18 @@ def show_data():
     print(alltodo)
     return "database created"
 
+@app.route('/update')
+def update():
+    alltodo = Todo.query.all()
+    print(alltodo)
+    return "database created"
+
+@app.route('/delete/<int:sno>')
+def delete(sno):
+    todo = Todo.query.filter_by(sno=sno).first()
+    db.session.delete(todo)
+    db.session.commit()
+    return redirect('/')
+
 if __name__ == "__main__":
     app.run(debug=True)
