@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Results</title>
+</head>
+
+<body>
+    <table border="1">
+        {% for key,value in data.items() %}
+        <tr>
+            <th>{{ key }}</th>
+            <td>{{ value }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+
+    <div>
+        <h2>Hello {{ name }} !!!!</h2>
+        <h2>Your Total Marks are {{ total }}</h2>
+        <h2>Your Average Marks are {{ average_total }}</h2>
+    </div>
+
+    <div>
+        {% if average_total > 50 %}
+            <h3>You Passed this exam !!!!</h3>
+        {% else %}
+            <h3>You Failed this exam .... try next year !!!</h3>
+        {% endif %}
+    </div>
+</body>
+
+</html>
