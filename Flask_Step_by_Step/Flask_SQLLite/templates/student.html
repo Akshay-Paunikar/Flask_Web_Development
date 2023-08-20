@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Data</title>
+</head>
+<body>
+    <form action="{{ url_for('addData')}}" method="post">
+        <p>Name:</p>
+        <input type="text" name="name">
+        <p>Gender:</p>
+        <select name="gender" id="gender">
+            <option value="gender" selected disabled value="Enter your gender" >Enter your gender</option>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+        </select>
+        <p>City:</p>
+        <input type="text" name="city">
+        <p>Zipcode:</p>
+        <input type="number" name="zipcode" min="111111" max="999999">
+        <p>Submit Information:</p>
+        <input type="submit" value="submit">
+    </form>
+</body>
+</html>
